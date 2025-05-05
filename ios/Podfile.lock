@@ -1,0 +1,336 @@
+PODS:
+  - app_settings (5.1.1):
+    - Flutter
+  - app_tracking_transparency (0.0.1):
+    - Flutter
+  - appmetrica_plugin (1.4.0):
+    - Flutter
+    - YandexMobileMetrica (~> 4.4)
+  - bluetooth_low_energy_darwin (2.0.2):
+    - Flutter
+    - FlutterMacOS
+  - connectivity_plus (0.0.1):
+    - Flutter
+    - ReachabilitySwift
+  - device_info (0.0.1):
+    - Flutter
+  - device_info_plus (0.0.1):
+    - Flutter
+  - Firebase/CoreOnly (10.22.0):
+    - FirebaseCore (= 10.22.0)
+  - Firebase/Crashlytics (10.22.0):
+    - Firebase/CoreOnly
+    - FirebaseCrashlytics (~> 10.22.0)
+  - firebase_core (2.28.0):
+    - Firebase/CoreOnly (= 10.22.0)
+    - Flutter
+  - firebase_crashlytics (3.5.0):
+    - Firebase/Crashlytics (= 10.22.0)
+    - firebase_core
+    - Flutter
+  - FirebaseCore (10.22.0):
+    - FirebaseCoreInternal (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.12)
+    - GoogleUtilities/Logger (~> 7.12)
+  - FirebaseCoreExtension (10.23.0):
+    - FirebaseCore (~> 10.0)
+  - FirebaseCoreInternal (10.23.0):
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+  - FirebaseCrashlytics (10.22.0):
+    - FirebaseCore (~> 10.5)
+    - FirebaseInstallations (~> 10.0)
+    - FirebaseSessions (~> 10.5)
+    - GoogleDataTransport (~> 9.2)
+    - GoogleUtilities/Environment (~> 7.8)
+    - nanopb (< 2.30911.0, >= 2.30908.0)
+    - PromisesObjC (~> 2.1)
+  - FirebaseInstallations (10.23.0):
+    - FirebaseCore (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/UserDefaults (~> 7.8)
+    - PromisesObjC (~> 2.1)
+  - FirebaseSessions (10.23.0):
+    - FirebaseCore (~> 10.5)
+    - FirebaseCoreExtension (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleDataTransport (~> 9.2)
+    - GoogleUtilities/Environment (~> 7.10)
+    - nanopb (< 2.30911.0, >= 2.30908.0)
+    - PromisesSwift (~> 2.1)
+  - Flutter (1.0.0)
+  - flutter_blue_plus (0.0.1):
+    - Flutter
+  - flutter_localization (0.0.1):
+    - Flutter
+  - flutter_native_splash (0.0.1):
+    - Flutter
+  - flutter_secure_storage (6.0.0):
+    - Flutter
+  - GoogleDataTransport (9.4.1):
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (< 2.30911.0, >= 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Environment (7.13.0):
+    - GoogleUtilities/Privacy
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.13.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Privacy
+  - "GoogleUtilities/NSData+zlib (7.13.0)":
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Privacy (7.13.0)
+  - GoogleUtilities/UserDefaults (7.13.0):
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Privacy
+  - home_widget (0.0.1):
+    - Flutter
+  - integration_test (0.0.1):
+    - Flutter
+  - nanopb (2.30910.0):
+    - nanopb/decode (= 2.30910.0)
+    - nanopb/encode (= 2.30910.0)
+  - nanopb/decode (2.30910.0)
+  - nanopb/encode (2.30910.0)
+  - onesignal_flutter (5.1.3):
+    - Flutter
+    - OneSignalXCFramework (= 5.1.3)
+  - OneSignalXCFramework (5.1.3):
+    - OneSignalXCFramework/OneSignalComplete (= 5.1.3)
+  - OneSignalXCFramework/OneSignal (5.1.3):
+    - OneSignalXCFramework/OneSignalCore
+    - OneSignalXCFramework/OneSignalExtension
+    - OneSignalXCFramework/OneSignalNotifications
+    - OneSignalXCFramework/OneSignalOSCore
+    - OneSignalXCFramework/OneSignalOutcomes
+    - OneSignalXCFramework/OneSignalUser
+  - OneSignalXCFramework/OneSignalComplete (5.1.3):
+    - OneSignalXCFramework/OneSignal
+    - OneSignalXCFramework/OneSignalInAppMessages
+    - OneSignalXCFramework/OneSignalLocation
+  - OneSignalXCFramework/OneSignalCore (5.1.3)
+  - OneSignalXCFramework/OneSignalExtension (5.1.3):
+    - OneSignalXCFramework/OneSignalCore
+    - OneSignalXCFramework/OneSignalOutcomes
+  - OneSignalXCFramework/OneSignalInAppMessages (5.1.3):
+    - OneSignalXCFramework/OneSignalCore
+    - OneSignalXCFramework/OneSignalNotifications
+    - OneSignalXCFramework/OneSignalOSCore
+    - OneSignalXCFramework/OneSignalOutcomes
+    - OneSignalXCFramework/OneSignalUser
+  - OneSignalXCFramework/OneSignalLocation (5.1.3):
+    - OneSignalXCFramework/OneSignalCore
+    - OneSignalXCFramework/OneSignalNotifications
+    - OneSignalXCFramework/OneSignalOSCore
+    - OneSignalXCFramework/OneSignalUser
+  - OneSignalXCFramework/OneSignalNotifications (5.1.3):
+    - OneSignalXCFramework/OneSignalCore
+    - OneSignalXCFramework/OneSignalExtension
+    - OneSignalXCFramework/OneSignalOutcomes
+  - OneSignalXCFramework/OneSignalOSCore (5.1.3):
+    - OneSignalXCFramework/OneSignalCore
+  - OneSignalXCFramework/OneSignalOutcomes (5.1.3):
+    - OneSignalXCFramework/OneSignalCore
+  - OneSignalXCFramework/OneSignalUser (5.1.3):
+    - OneSignalXCFramework/OneSignalCore
+    - OneSignalXCFramework/OneSignalNotifications
+    - OneSignalXCFramework/OneSignalOSCore
+    - OneSignalXCFramework/OneSignalOutcomes
+  - package_info (0.0.1):
+    - Flutter
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - permission_handler_apple (9.3.0):
+    - Flutter
+  - PromisesObjC (2.4.0)
+  - PromisesSwift (2.4.0):
+    - PromisesObjC (= 2.4.0)
+  - ReachabilitySwift (5.2.1)
+  - secure_method (0.0.1):
+    - Flutter
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - sqflite (0.0.3):
+    - Flutter
+    - FlutterMacOS
+  - store_redirect (0.0.1):
+    - Flutter
+  - syncfusion_flutter_pdfviewer (0.0.1):
+    - Flutter
+  - uni_links (0.0.1):
+    - Flutter
+  - url_launcher_ios (0.0.1):
+    - Flutter
+  - webview_flutter_wkwebview (0.0.1):
+    - Flutter
+  - workmanager (0.0.1):
+    - Flutter
+  - YandexMobileMetrica (4.5.2):
+    - YandexMobileMetrica/Static (= 4.5.2)
+  - YandexMobileMetrica/Static (4.5.2):
+    - YandexMobileMetrica/Static/Core (= 4.5.2)
+    - YandexMobileMetrica/Static/Crashes (= 4.5.2)
+  - YandexMobileMetrica/Static/Core (4.5.2)
+  - YandexMobileMetrica/Static/Crashes (4.5.2):
+    - YandexMobileMetrica/Static/Core
+
+DEPENDENCIES:
+  - app_settings (from `.symlinks/plugins/app_settings/ios`)
+  - app_tracking_transparency (from `.symlinks/plugins/app_tracking_transparency/ios`)
+  - appmetrica_plugin (from `.symlinks/plugins/appmetrica_plugin/ios`)
+  - bluetooth_low_energy_darwin (from `.symlinks/plugins/bluetooth_low_energy_darwin/darwin`)
+  - connectivity_plus (from `.symlinks/plugins/connectivity_plus/ios`)
+  - device_info (from `.symlinks/plugins/device_info/ios`)
+  - device_info_plus (from `.symlinks/plugins/device_info_plus/ios`)
+  - firebase_core (from `.symlinks/plugins/firebase_core/ios`)
+  - firebase_crashlytics (from `.symlinks/plugins/firebase_crashlytics/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_blue_plus (from `.symlinks/plugins/flutter_blue_plus/ios`)
+  - flutter_localization (from `.symlinks/plugins/flutter_localization/ios`)
+  - flutter_native_splash (from `.symlinks/plugins/flutter_native_splash/ios`)
+  - flutter_secure_storage (from `.symlinks/plugins/flutter_secure_storage/ios`)
+  - home_widget (from `.symlinks/plugins/home_widget/ios`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+  - onesignal_flutter (from `.symlinks/plugins/onesignal_flutter/ios`)
+  - OneSignalXCFramework (< 6.0, >= 5.0.0)
+  - package_info (from `.symlinks/plugins/package_info/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
+  - secure_method (from `.symlinks/plugins/secure_method/ios`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
+  - sqflite (from `.symlinks/plugins/sqflite/darwin`)
+  - store_redirect (from `.symlinks/plugins/store_redirect/ios`)
+  - syncfusion_flutter_pdfviewer (from `.symlinks/plugins/syncfusion_flutter_pdfviewer/ios`)
+  - uni_links (from `.symlinks/plugins/uni_links/ios`)
+  - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
+  - webview_flutter_wkwebview (from `.symlinks/plugins/webview_flutter_wkwebview/ios`)
+  - workmanager (from `.symlinks/plugins/workmanager/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Firebase
+    - FirebaseCore
+    - FirebaseCoreExtension
+    - FirebaseCoreInternal
+    - FirebaseCrashlytics
+    - FirebaseInstallations
+    - FirebaseSessions
+    - GoogleDataTransport
+    - GoogleUtilities
+    - nanopb
+    - OneSignalXCFramework
+    - PromisesObjC
+    - PromisesSwift
+    - ReachabilitySwift
+    - YandexMobileMetrica
+
+EXTERNAL SOURCES:
+  app_settings:
+    :path: ".symlinks/plugins/app_settings/ios"
+  app_tracking_transparency:
+    :path: ".symlinks/plugins/app_tracking_transparency/ios"
+  appmetrica_plugin:
+    :path: ".symlinks/plugins/appmetrica_plugin/ios"
+  bluetooth_low_energy_darwin:
+    :path: ".symlinks/plugins/bluetooth_low_energy_darwin/darwin"
+  connectivity_plus:
+    :path: ".symlinks/plugins/connectivity_plus/ios"
+  device_info:
+    :path: ".symlinks/plugins/device_info/ios"
+  device_info_plus:
+    :path: ".symlinks/plugins/device_info_plus/ios"
+  firebase_core:
+    :path: ".symlinks/plugins/firebase_core/ios"
+  firebase_crashlytics:
+    :path: ".symlinks/plugins/firebase_crashlytics/ios"
+  Flutter:
+    :path: Flutter
+  flutter_blue_plus:
+    :path: ".symlinks/plugins/flutter_blue_plus/ios"
+  flutter_localization:
+    :path: ".symlinks/plugins/flutter_localization/ios"
+  flutter_native_splash:
+    :path: ".symlinks/plugins/flutter_native_splash/ios"
+  flutter_secure_storage:
+    :path: ".symlinks/plugins/flutter_secure_storage/ios"
+  home_widget:
+    :path: ".symlinks/plugins/home_widget/ios"
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+  onesignal_flutter:
+    :path: ".symlinks/plugins/onesignal_flutter/ios"
+  package_info:
+    :path: ".symlinks/plugins/package_info/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  permission_handler_apple:
+    :path: ".symlinks/plugins/permission_handler_apple/ios"
+  secure_method:
+    :path: ".symlinks/plugins/secure_method/ios"
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/darwin"
+  store_redirect:
+    :path: ".symlinks/plugins/store_redirect/ios"
+  syncfusion_flutter_pdfviewer:
+    :path: ".symlinks/plugins/syncfusion_flutter_pdfviewer/ios"
+  uni_links:
+    :path: ".symlinks/plugins/uni_links/ios"
+  url_launcher_ios:
+    :path: ".symlinks/plugins/url_launcher_ios/ios"
+  webview_flutter_wkwebview:
+    :path: ".symlinks/plugins/webview_flutter_wkwebview/ios"
+  workmanager:
+    :path: ".symlinks/plugins/workmanager/ios"
+
+SPEC CHECKSUMS:
+  app_settings: 017320c6a680cdc94c799949d95b84cb69389ebc
+  app_tracking_transparency: 5b1745ef9ade815f7455cb6a0848349589afb7c5
+  appmetrica_plugin: b0478d4c863b48972294e26a2d5d1db8d30a9a2d
+  bluetooth_low_energy_darwin: e37c1af3337ebc99a60807137dc5e47c6195eac7
+  connectivity_plus: bf0076dd84a130856aa636df1c71ccaff908fa1d
+  device_info: d7d233b645a32c40dfdc212de5cf646ca482f175
+  device_info_plus: c6fb39579d0f423935b0c9ce7ee2f44b71b9fce6
+  Firebase: 797fd7297b7e1be954432743a0b3f90038e45a71
+  firebase_core: d955499180c3c8ef355adf46b8752c4c01d09e0a
+  firebase_crashlytics: 6ddcbdb33350f98b8e3becef289b98bcc00f0b5e
+  FirebaseCore: 0326ec9b05fbed8f8716cddbf0e36894a13837f7
+  FirebaseCoreExtension: cb88851781a24e031d1b58e0bd01eb1f46b044b5
+  FirebaseCoreInternal: 6a292e6f0bece1243a737e81556e56e5e19282e3
+  FirebaseCrashlytics: e568d68ce89117c80cddb04073ab9018725fbb8c
+  FirebaseInstallations: 42d6ead4605d6eafb3b6683674e80e18eb6f2c35
+  FirebaseSessions: f06853e30f99fe42aa511014d7ee6c8c319f08a3
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_blue_plus: 4837da7d00cf5d441fdd6635b3a57f936778ea96
+  flutter_localization: f43b18844a2b3d2c71fd64f04ffd6b1e64dd54d4
+  flutter_native_splash: edf599c81f74d093a4daf8e17bd7a018854bc778
+  flutter_secure_storage: 23fc622d89d073675f2eaa109381aefbcf5a49be
+  GoogleDataTransport: 6c09b596d841063d76d4288cc2d2f42cc36e1e2a
+  GoogleUtilities: d053d902a8edaa9904e1bd00c37535385b8ed152
+  home_widget: 0434835a4c9a75704264feff6be17ea40e0f0d57
+  integration_test: 13825b8a9334a850581300559b8839134b124670
+  nanopb: 438bc412db1928dac798aa6fd75726007be04262
+  onesignal_flutter: b2e0779721deaffb67ba8abaa5417da139318090
+  OneSignalXCFramework: 613f696d70d7e544b9f99e7a21c8b49fa47d7942
+  package_info: 873975fc26034f0b863a300ad47e7f1ac6c7ec62
+  path_provider_foundation: 3784922295ac71e43754bd15e0653ccfd36a147c
+  permission_handler_apple: 9878588469a2b0d0fc1e048d9f43605f92e6cec2
+  PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
+  PromisesSwift: 9d77319bbe72ebf6d872900551f7eeba9bce2851
+  ReachabilitySwift: 5ae15e16814b5f9ef568963fb2c87aeb49158c66
+  secure_method: 5bb6cf11b81a4709920e292114f268e5d688f3e8
+  shared_preferences_foundation: b4c3b4cddf1c21f02770737f147a3f5da9d39695
+  sqflite: 673a0e54cc04b7d6dba8d24fb8095b31c3a99eec
+  store_redirect: 2977747cf81689a39bd62c248c2deacb7a0d131e
+  syncfusion_flutter_pdfviewer: bb9998884b864cfedf72628df3503bdf57e397c0
+  uni_links: d97da20c7701486ba192624d99bffaaffcfc298a
+  url_launcher_ios: 6116280ddcfe98ab8820085d8d76ae7449447586
+  webview_flutter_wkwebview: be0f0d33777f1bfd0c9fdcb594786704dbf65f36
+  workmanager: 0afdcf5628bbde6924c21af7836fed07b42e30e6
+  YandexMobileMetrica: f5368ee93f286c793d73b58da00929babfc897c1
+
+PODFILE CHECKSUM: 4f85294bec70896800afd450e22b2b433bf22d19
+
+COCOAPODS: 1.15.2

@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/home_widget"
+    android:background="@drawable/next_subject"
+
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:background="@drawable/status_style"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:id="@+id/statusTextView"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Status Placeholder"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/timeTextView"
+            android:layout_width="80dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Time Placeholder"
+            android:textSize="14sp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:id="@+id/auditTextView"
+            android:layout_width="80dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Audit Placeholder"
+            android:textSize="14sp"
+            android:textStyle="normal"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/subjectTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subject Placeholder"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/teacherTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Teacher Placeholder"
+        android:textSize="14sp" />
+
+
+</LinearLayout>
