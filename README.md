@@ -1,5 +1,14 @@
 # Документация по проекту CSF App
 
+<div align="center">
+  <h3>Разработано ООО "Fittin"</h3>
+  <p>Приглашаем к сотрудничеству!</p>
+  
+  <a href="https://t.me/fittin_tg_connection_bot" style="display: inline-block; background-color: #0088cc; color: white; padding: 12px 24px; text-decoration: none; font-weight: bold; border-radius: 6px; margin: 20px 0; font-size: 16px;">
+    📱 Связаться через Telegram
+  </a>
+</div>
+
 ## Содержание
 
 - [Авторизация](#авторизация)
